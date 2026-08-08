@@ -25,7 +25,8 @@ module.exports.handleEvent = async function ({ api, event }) {
     text.includes("asif")
   ) {
     return api.sendMessage(
-      "😝😩 এরা ক্রাশ নিয়ে বিজি আছে, বিরক্ত করিস না! 😂",
+      "😝😩 এরা ক্রামে নিয়ে বিজি আছে, বিরক্ত করিস না! 😂",
+      "🌚💣কিরে লুচ্ছাদের সাথে তোর কি সম্পর্ক 🤬💀",
       event.threadID,
       event.messageID
     );
